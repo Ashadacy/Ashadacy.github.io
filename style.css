@@ -1,0 +1,374 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+
+.logo {
+	float: left;
+	width: 150px;
+	margin-left: 33px
+		
+}
+
+
+img,
+iframe {
+
+
+ 
+width: 550px;
+height: auto;
+
+	margin-top: 4px;
+
+
+	margin-left: 100px
+		
+
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+body {
+      background-color: orange;
+     }
+header {
+       background-color: white;
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:25px;
+    color: #677E70
+
+   } 
+h2 {
+    font-size: 15px;
+    text-transform: both;
+   color: #909C87
+	   
+   }
+
+h5{
+color: #FFFFFF 	
+}
+
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+
+
+.item {
+       background-color: white;
+       padding:8%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 80px; 
+       border-radius:px;
+}
+/* let's bring the width in a little */
+/* check it out - we're responsive without even trying! */ 
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+     max-width: 900px;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+
+nav {
+text-align: right;
+	padding-right: 60px;
+}
+nav li {
+display: inline-block;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+/* nav li a, or nav a ?? */ nav a {
+background: white; 
+color: black;
+padding: 10px; 
+text-decoration: none; 
+border-radius: 5px;
+	
+}
+nav a:hover {
+background: beige;
+}
+
+/*PAYMENT FORM */
+
+
+
+body {
+background-color:#EBEBEB;
+background-image: url(BG.jpg); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 45px;
+	margin-left: -53px;
+	
+}
+.text-container {
+  max-width: 170px;
+}
+
+#my-paragraph {
+  position: relative;
+  left: 78px;
+  top: 20px;
+  font-size: 12px;
+}
+
+
+.text-container2 {
+  max-width: 160px;
+}
+
+#my-paragraph2 {
+  position: relative;
+  left: 280px;
+  top: -360px;
+  font-size: 12px;
+	
+}
+
+
+.text-container3 {
+  max-width: 160px;
+}
+
+#my-paragraph3 {
+  position: relative;
+  left: 482px;
+  top: -741px;
+  font-size: 12px;
+}
+
+
+.text-container4 {
+  max-width: 160px;
+}
+
+#my-paragraph4 {
+  position: relative;
+  left: 79px;
+  top: -40px;
+  font-size: 12px;
+}
+
+
+.text-containerH1 {
+  max-width: 160px;
+}
+
+#my-paragraphH1 {
+  position: relative;
+  left: 78px;
+  top: -195px;
+  font-size: 15px;
+}
+
+.text-containerH2 {
+  max-width: 150px;
+}
+
+#my-paragraphH2 {
+  position: relative;
+  left: 280px;
+  top: -360px;
+  font-size: 15px;
+}
+
+
+.text-containerH3 {
+  max-width: 150px;
+}
+
+#my-paragraphH3 {
+  position: relative;
+  left: 486px;
+  top: -737px;
+  font-size: 15px;
+}
+
+
+/* team reffering to photo of friends */
+.team{
+width: 500px
+}
+	
+.team{
+	margin-top: -600px;
+		
+}
+
+.team{
+	margin-left: 120px;
+}
+
+
+
+
+
+
+.home1{
+	width: 700px; 
+	margin-left: 7px;
+		
+		
+	}
+.petrigallery{
+	width:800px;
+	margin-left: -28px;
+	margin-top: -60px;
+	
+}
+
+
+
+	
+
+
+
+.footer-with-bg {
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
